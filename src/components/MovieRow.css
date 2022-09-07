@@ -1,0 +1,34 @@
+.movieRow{
+    margin-bottom: 2rem;
+}
+
+.movieRow h2{
+    margin-left: 3rem;
+}
+
+.movieRow--listarea{
+    overflow-x: hidden;
+
+}
+
+.movieRow--list{
+    width: 999999rem;
+    padding-left: 3rem;
+}
+
+.movieRow--item{
+    display: inline-block;
+    width: 10rem;
+    cursor: pointer;
+
+}
+
+.movieRow--item img{
+    width: 100%;
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+
+.movieRow--item img:hover{
+    transform: scale(1);
+}
