@@ -83,3 +83,33 @@
     font-size: 1rem;
     color: #999;
 }
+
+@media (max-width: 760px){
+    .featured{
+       height: 90vh;
+    }
+
+    .featured--name{
+        font-size: 2rem;
+    }
+
+    .featured--info{
+        font-size: 1rem;
+    }
+
+    .featured--description{
+        font-size: 0.8rem;
+        max-width: 100%;
+        padding-right: 1rem;
+    }
+
+    .featured--watchbutton,
+    .featured--mylistbutton{
+        font-size: 1rem;
+    }
+
+
+    .featured--horizontal{
+        padding-left: 1.5rem;
+    }
+}

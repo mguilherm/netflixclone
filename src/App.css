@@ -15,3 +15,38 @@ body {
 .lists{
     margin-top: -9rem;
 }
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(205, 0, 0);
+}
+
+.loading{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading img{
+    width: 100%;
+}
+
+@media (max-width: 760px){
+
+    .loading img{
+        height: 100%;
+        width: unset;
+    }
+}

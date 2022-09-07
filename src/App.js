@@ -56,7 +56,17 @@ export default () => {
           </div>
         ))}
       </section>
+      <footer>
+        Feito por <span> <a href="https://www.linkedin.com/in/marcos-guilherme-barbosa-da-silva" target="_blank">Marcos Silva </a></span><br/>
+        Direitos de imagem para Netflix <br/>
+        Dados extraídos do site Themoviedb.org
+      </footer>
       
+      {movieList.length <= 0 &&
+        <div className="loading">
+          <img src="https://c.tenor.com/NerN41mjgV0AAAAC/netflix-intro.gif" alt="loading..." />
+        </div>
+      }
     </div>
   )
 }
